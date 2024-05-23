@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Examen</string>
+    <string name="ingrese_metros">Ingrese metros</string>
+    <string name="a_kilometros">A kilómetros</string>
+    <string name="a_decametros">A decámetros</string>
+    <string name="a_centimetros">A centímetros</string>
+    <string name="a_milimetros">A milímetros</string>
+    <string name="resultado_metros">%.2f metros</string>
+    <string name="resultado_kilometros">%.2f kilómetros</string>
+    <string name="resultado_decametros">%.2f decámetros</string>
+    <string name="resultado_centimetros">%.2f centímetros</string>
+    <string name="resultado_milimetros">%.2f milímetros</string>
+</resources>

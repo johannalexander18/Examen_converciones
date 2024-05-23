@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/Metros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingrese_metros"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnKilometros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/a_kilometros" />
+
+    <Button
+        android:id="@+id/btnDecametros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/a_decametros" />
+
+    <Button
+        android:id="@+id/btnCentimetros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/a_centimetros" />
+
+    <Button
+        android:id="@+id/btnMilimetros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/a_milimetros" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
